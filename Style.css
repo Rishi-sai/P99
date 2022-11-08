@@ -1,0 +1,38 @@
+#footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+body{
+    background-color: beige;
+}
+h1{
+    font-family:cursive;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#camera{
+    width: 400px;
+    height: 300px;
+    border-radius: 5cm;
+    border-color: black;
+    border: dashed;
+    
+}
+img{
+    width: 400px;
+    height: 300px;
+    border: black;
+    border-style: ridge;
+}
+img:hover{
+    border-radius:360px;
+    border-style: outset;
+}
+.column{
+    display: inline;
+    padding: 50px;
+}
